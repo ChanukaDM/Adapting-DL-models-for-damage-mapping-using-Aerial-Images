@@ -5,7 +5,9 @@ Detecting cyclone damage to **roads, bridges, and land** from pre/post aerial im
 Built on imagery of **Cyclone Gabrielle** (New Zealand, February 2023) from Land Information New Zealand (LINZ).
 
 ---
-
+**Method Overview**
+<img src="docs/examples/Project overview.png" width="980">
+---
 ## Overview
 
 Most damage-assessment models are trained on **buildings** in **satellite** imagery. Cyclones and floods, though, mostly damage things that are not buildings, and response teams increasingly fly **aerial** surveys at sub-metre resolution. That is a double gap: different target, different sensor.
@@ -16,9 +18,6 @@ This project asks two questions:
 2. Can the best model be compressed into something small enough to run cheaply, without losing damage recall?
 
 **Short answers.** A frozen Swin-V2-B pretrained on aerial NAIP imagery is the strongest in-region model (0.9767 accuracy, 0.9583 recall, 0.9943 AUC). Distilling it into a DenseNet-121 keeps the same damage recall (0.9583) at about 11x fewer parameters, and transfers better to an unseen region.
-
-**Method Overview**
-<img src="docs/examples/Project overview.png" width="950">
 
 
 ---
