@@ -131,8 +131,7 @@ These results are preliminary. The test sets are small (129 in-region, 75 extern
 ```bibtex
 @inproceedings{danansooriya2026label,
   title     = {Adapting Pretrained Deep Learning Models with Limited Data for Post-Disaster Damage Classification: A Case Study of Cyclone Gabrielle, New Zealand},
-  author    = {Danansooriya, Chanuka and Ranasinghe, Malintha and
-               Prasanna, Raj and Attanayake, Chamodya},
+  author    = {Chanuka Danansooriya, Malintha Ranasinghe, Chamodya attanayake, Raj Prasanna},
   year      = {2026}
 }
 ```
