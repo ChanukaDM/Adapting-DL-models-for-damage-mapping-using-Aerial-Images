@@ -1,4 +1,4 @@
-# Label-Efficient Damage Assessment of Non-Building Infrastructure
+# Adapting Pretrained Deep Learning Models with Limited Data for Post-Disaster Damage Classification: A Case Study of Cyclone Gabrielle, New Zealand
 
 Detecting cyclone damage to **roads, bridges, and land** from pre/post aerial imagery, using frozen remote-sensing foundation models and knowledge distillation.
 
@@ -130,12 +130,11 @@ These results are preliminary. The test sets are small (129 in-region, 75 extern
 ## Citation
 
 ```bibtex
-@inproceedings{danansooriya2027label,
-  title     = {Label-Efficient Cross-Domain Damage Assessment of Non-Building
-               Infrastructure: A Benchmark on Cyclone Gabrielle Aerial Imagery},
+@inproceedings{danansooriya2026label,
+  title     = {Adapting Pretrained Deep Learning Models with Limited Data for Post-Disaster Damage Classification: A Case Study of Cyclone Gabrielle, New Zealand},
   author    = {Danansooriya, Chanuka and Ranasinghe, Malintha and
                Prasanna, Raj and Attanayake, Chamodya},
-  year      = {2027}
+  year      = {2026}
 }
 ```
 
