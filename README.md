@@ -18,7 +18,7 @@ This project asks two questions:
 **Short answers.** A frozen Swin-V2-B pretrained on aerial NAIP imagery is the strongest in-region model (0.9767 accuracy, 0.9583 recall, 0.9943 AUC). Distilling it into a DenseNet-121 keeps the same damage recall (0.9583) at about 11x fewer parameters, and transfers better to an unseen region.
 
 **Method Overview**
-<img src="docs/examples/Project overview.png" width="750">
+<img src="docs/examples/Project overview.png" width="950">
 
 
 ---
